@@ -1,5 +1,8 @@
-.git
 .*.un~
 .*.swp
-.dockerignore
+
 Dockerfile
+.dockerignore
+
+.git
+.gitignore
