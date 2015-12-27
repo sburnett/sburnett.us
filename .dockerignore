@@ -1,0 +1,5 @@
+.git
+.*.un~
+.*.swp
+.dockerignore
+Dockerfile
