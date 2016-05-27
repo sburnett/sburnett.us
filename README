@@ -1,0 +1,6 @@
+Upgrading sburnett.us after committing changes.
+
+$ docker build -t www-nginx https://github.com/sburnett/sburnett.us.git
+$ docker stop www-nginx
+$ docker rm www-nginx
+$ docker run --name www-nginx -p 80:80 --restart unless-stopped -d www-nginx:latest
